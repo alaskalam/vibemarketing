@@ -13,7 +13,7 @@ python app.py
 ```
 Then open http://127.0.0.1:5000
 
-Live version: [add your Render URL here]
+Live version: https://discovibemarketing.onrender.com
 ## Important limitation
 The starter app stores data only in memory while the server is running. A server restart (or Render's free tier spinning down after inactivity) will wipe any projects that were added.
 That is intentional for the first version. Once the interface feels right, replace the in-memory `projects` list and the logic inside `add_project` with Supabase queries.
